@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "health-monitor"
+version = "0.1.0"
+description = "A service health monitoring tool"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "httpx",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "locust",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/health_monitor"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
