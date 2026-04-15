@@ -1,4 +1,4 @@
-"""Step 6: Streaming Results
+"""Step 7: Streaming Results
 
 Tests for the SSE /stream endpoint.
 """

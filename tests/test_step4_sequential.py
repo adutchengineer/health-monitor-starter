@@ -1,4 +1,4 @@
-"""Step 3: Measure Sequential Cost
+"""Step 4: Measure Sequential Cost
 
 Tests for the /sweep endpoint in sequential mode.
 """

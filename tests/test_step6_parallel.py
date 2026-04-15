@@ -1,4 +1,4 @@
-"""Step 5: CPU Validation
+"""Step 6: CPU Validation
 
 Tests for the validator module — CPU-intensive payload validation
 using ProcessPoolExecutor.

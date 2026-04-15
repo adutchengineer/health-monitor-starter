@@ -1,4 +1,4 @@
-"""Step 4: Concurrent Checking
+"""Step 5: Concurrent Checking
 
 Tests for threaded and async sweep modes, and the semaphore limit.
 """
